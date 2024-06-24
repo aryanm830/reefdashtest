@@ -7,8 +7,8 @@ import type { OptionsType } from 'cookies-next/lib/types';
 import type { IncomingMessage } from 'http';
 
 export const API_ENDPOINT = 'https://discord.com/api/v10';
-export const CLIENT_ID = process.env.BOT_CLIENT_ID ?? '';
-export const CLIENT_SECRET = process.env.BOT_CLIENT_SECRET ?? '';
+export const CLIENT_ID = process.env.BOT_CLIENT_ID ?? '986983538077356053';
+export const CLIENT_SECRET = process.env.BOT_CLIENT_SECRET ?? 'I2yOvL-tU58Wh4w_Y5Zp7kQr90HUNe22';
 
 const TokenCookie = 'ts-token';
 
